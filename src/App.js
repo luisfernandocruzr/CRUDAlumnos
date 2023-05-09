@@ -1,5 +1,5 @@
 import React from "react";
-import Alumno from "./components/violen";
+import Alumno from "./components/Alumno";
 
 function App() {
   return (
