@@ -1,0 +1,94 @@
+.capa {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.37);
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.formularioAlumno{
+    width: 380px;
+    background: rgba(11, 249, 225, 0.582);
+	margin-top: 20px;
+    margin-left: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0) ;
+	backdrop-filter: blur(3px) ;
+}
+.btnEnviar{
+    color: rgb(0, 0, 0);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);  
+}
+.btnEnviar:hover{
+    background-color: rgb(105, 229, 4);
+    color: rgb(0, 0, 0);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.tabla{
+   background-color: aqua;
+    border-radius: 0.5rem;
+    color: rgb(0, 0, 0);
+    margin-left: 450px;
+    margin-bottom: auto;
+    table-layout: auto;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.btnEliminar{
+    color: rgb(0, 0, 0);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);  
+}
+.btnEliminar:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.btnEditar{
+    color: rgb(0, 0, 0);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);  
+}
+.btnEditar:hover{
+    background-color: rgb(2, 116, 255);
+    color: rgb(255, 255, 255);
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.alumnos{
+    text-align: center;
+	margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.712) ;
+	backdrop-filter: blur(3px) ;
+
+}
